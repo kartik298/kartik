@@ -1,0 +1,9 @@
+
+@media screen and (min-width: 500px) {
+
+  .first,
+  .second,
+  .third {
+    width: 70%;
+  }
+}

@@ -1,0 +1,40 @@
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .5s ease-in-out;
+}
+
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(rgba(4, 178, 177, 1), rgba(4, 178, 177, 1))
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%
+}
+
+/* input {
+  display: none;
+} */
+
+.custom-file-upload {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-top: 2px;
+  text-align: center;
+  transition: border 0.2s;
+}
+
+.custom-file-upload:hover {
+  border: 2px solid black;
+}
+
+::file-selector-button {
+  display: none;
+}

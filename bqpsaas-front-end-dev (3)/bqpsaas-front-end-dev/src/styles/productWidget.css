@@ -1,0 +1,18 @@
+@media (max-height:768px) and (max-width:768px){
+    body{
+        margin-bottom: 30px;
+    }
+    .doughnut{
+        position: relative;
+        /* z-index: 50; */
+        background-color: rgb(255, 255, 255);
+        height: 38px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        transition: height 0.2s;
+    }
+    .doughnut:active{
+        height:320px;
+        padding-bottom: 50px;
+    }
+}
